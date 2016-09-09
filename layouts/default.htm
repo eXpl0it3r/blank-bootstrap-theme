@@ -6,12 +6,15 @@ description = "Default layout"
         <meta charset="utf-8">
         <title>{{ this.page.title }}</title>
         {% styles %}
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="{{ [
             'assets/less/app.less'
         ]|theme }}" rel="stylesheet">
     </head>
     <body>
-        {% page %}
+        <div class="container">
+            {% page %}
+        </div>
 
         <script src="{{ [
             'assets/js/jquery.js',

@@ -1,5 +1,5 @@
-name: Blank-Bootstrap
-author: Kristoffer Alfheim
-description: Blank scaffold which includes Twitter Bootstrap, jQuery and Font Awesome.
-homepage: 'https://github.com/krisawzm/blank-bootstrap-theme'
-code: Blank-Bootstrap
+name: Simple-Bootstrap
+author: Lukas Dürrenberger
+description: Simple layout page which uses Twitter Bootstrap, jQuery, animate.css and Font Awesome.
+homepage: 'https://github.com/eXpl0it3r/simple-bootstrap-theme'
+code: Simple-Bootstrap

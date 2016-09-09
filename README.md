@@ -1,10 +1,10 @@
-# Blank-Bootstrap
+# Simple-Bootstrap
 
-Blank scaffold for [OctoberCMS](https://github.com/octobercms/october) which includes [Twitter Bootstrap](http://getbootstrap.com/), [jQuery](https://jquery.com/) and [Font Awesome](https://fortawesome.github.io/Font-Awesome/). Built using [Less](http://lesscss.org/).
+Simple layout page for [OctoberCMS](https://github.com/octobercms/october) which uses [Twitter Bootstrap](http://getbootstrap.com/), [jQuery](https://jquery.com/), [animate.css](https://daneden.github.io/animate.css/) and [Font Awesome](https://fortawesome.github.io/Font-Awesome/). Built using [Less](http://lesscss.org/).
 
 ## Installation
 
-`$ php artisan theme:install krisawzm.blank-bootstrap <theme-dir>`
+`$ php artisan theme:install lukas.simple-bootstrap <theme-dir>`
 
 Replace `<theme-dir>` with whatever fits the site you're building.
 
@@ -35,6 +35,12 @@ This theme includes the `@framework` and `@framework.extras` JS assets in the la
 - Remove `@import` statement in `assets/less/app.less`
 - Delete directory `assets/less/fa`
 - Delete directory `assets/vendor/font-awesome`
+
+### Removing animate.css
+
+- Remove `@import` statement in `assets/less/app.less`
+- Delete directory `assets/less/acss`
+- Delete directory `assets/vendor/animate-css`
 
 ### Other files
 
